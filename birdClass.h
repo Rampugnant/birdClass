@@ -15,4 +15,7 @@ class Bird {
 
         void fry();
         bool isFried();
+	std::string getName(); 
+	double getWingspan(); 
+	std::string getBeakShape(); 
 };

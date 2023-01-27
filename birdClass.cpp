@@ -24,4 +24,14 @@ bool Bird::isFried(){
 	//returns the bool fried within a bird object 
 }  
 
+std::string Bird::getName(){ 
+	return name; 
+} 
 
+double Bird::getWingspan(){
+	return wingspan; 
+} 
+
+std::string Bird::getBeakShape(){
+	return beakShape; 
+} 
