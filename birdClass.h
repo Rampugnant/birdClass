@@ -1,25 +1,18 @@
-#include "birdClass.h" 
+#pragma once 
+#include <iostream>
 
-Bird::Bird() 
-{
-	name;
-	wingspan;
-	beakShape;
-	fried; 
-}
+class Bird {
+    private:
+        std::string name;
+        double wingspan;
+        std::string beakShape;
+        bool fried;
 
-Bird::Bird(std::string name, double wingspan, std::string beakShape, bool fried)
-{ 
-	name = name; 
-	wingspan = wingspan; 
-	beakShape = beakShape; 
-	fried = fried; 
-} 
+    public:
 
-void Bird::fry(){ 
-	//updates boolian fried to true 
-} 
+        Bird();
+        Bird(std::string name, double wingspan, std:string beakShape, bool fried);
 
-bool Bird::isFried(){ 
-	//returns the bool fried within a bird object 
-}  
+        void fry();
+        bool isFried();
+};
