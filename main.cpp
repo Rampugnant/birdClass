@@ -4,7 +4,7 @@ int main(){
 
 Bird birb;
 
-auto lunch = birb.Bird::isFried();
+auto lunch = birb.isFried();
 
 return 0;
 }
