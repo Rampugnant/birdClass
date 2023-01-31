@@ -2,7 +2,7 @@
 
 int main(){
 
-birdClass birb;
+Bird birb;
 
 auto lunch = birb.Bird::isFried();
 
